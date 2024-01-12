@@ -3,11 +3,6 @@ from std_msgs.msg import String
 from geometry_msgs.msg import PointStamped
 import yaml
 
-# geometry_msgs/PointStamped
-
-import rospy
-import yaml
-from geometry_msgs.msg import PointStamped
 
 class DataCollector:
     def __init__(self):
